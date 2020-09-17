@@ -1,0 +1,32 @@
+.no-js #loader { display: none;  }
+
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url("../images/favicon.svg") center no-repeat #fff;
+}
+html {
+  margin: 0;
+}
+body {
+  margin: 0;
+  background-image: url("https://vod-progressive.akamaized.net/exp=1600372525~acl=%2A%2F1167969674.mp4%2A~hmac=e9645142690da83d75efcd42def008938912e164033172c404b2876c6a12ea49/vimeo-prod-skyfire-std-us/01/2310/11/286550378/1167969674.mp4");
+}
+iframe {
+  display: block;
+  height: 100vh;
+  width: 100vw;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}

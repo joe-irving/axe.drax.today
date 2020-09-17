@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Drax? Fuck that...</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script type="text/javascript">
+      // Wait for window load
+      $(window).load(function() {
+        // Animate loader off screen
+        $(".se-pre-con").fadeOut("slow");;
+      });
+    </script>
+  </head>
+  <body>
+    <div class="se-pre-con"></div>
+    <video autoplay id="myVideo" controls>
+      <source src="https://vod-progressive.akamaized.net/exp=1600372525~acl=%2A%2F1167969674.mp4%2A~hmac=e9645142690da83d75efcd42def008938912e164033172c404b2876c6a12ea49/vimeo-prod-skyfire-std-us/01/2310/11/286550378/1167969674.mp4" type="video/mp4">
+    </video>
+    <!-- <iframe src="https://player.vimeo.com/video/286550378" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
+  </body>
+</html>
