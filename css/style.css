@@ -23,6 +23,6 @@ img {
 	max-width: 100%;
 }
 
-.big-space div {
+div.big-space {
 	height: 100vh;
 }
